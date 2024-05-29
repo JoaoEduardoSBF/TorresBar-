@@ -1,2 +1,2 @@
 # TorresBar 
- repositorio do projeto do bar
+ repositorio do projeto de cardápio do bar
