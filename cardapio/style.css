@@ -2,12 +2,30 @@ header{
     font-size: 100px;
     text-align: center;
     font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: darkgoldenrod;
+    background-color: rgb(230, 168, 11);
     height: 150px;
     
 }
 li{
     text-align: center;
     padding-bottom: 40px;
+    
+}
+
+footer{
+    background-color:rgb(182, 135, 18) ;
+    height: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    background-color: black;
+}
+
+div{text-align: center;}
+
+img{
+    height: 800px;
     
 }
