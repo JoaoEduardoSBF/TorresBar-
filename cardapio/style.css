@@ -7,7 +7,8 @@ header{
     
 }
 ul{
-    height: 130px;
+   
+    border: solid 1px;
     
 }
 
@@ -33,4 +34,9 @@ div{text-align: center;}
 
 .desordem{
     background-color: rgba(139, 85, 14, 0.925);
+    height: 150px;
+    border-radius: solid 1px white;
+}
+img{
+    border: solid 1px white;
 }
