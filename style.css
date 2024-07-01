@@ -1,0 +1,42 @@
+header{
+    font-size: 100px;
+    text-align: center;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(230, 168, 11);
+    height: 150px;
+    
+}
+ul{
+   
+    border: solid 1px;
+    
+}
+
+li{
+    text-align: center;
+    
+    
+}
+
+footer{
+    background-color:rgb(182, 135, 18) ;
+    height: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+div{text-align: center;}
+
+.desordem{
+    background-color: rgba(139, 85, 14, 0.925);
+    height: 150px;
+    border-radius: solid 1px white;
+}
+img{
+    border: solid 1px white;
+}
