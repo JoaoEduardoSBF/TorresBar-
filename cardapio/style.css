@@ -19,15 +19,16 @@ li{
 }
 
 footer{
-    background-color:rgb(182, 135, 18) ;
+    color: white;
     height: 65px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 body{
-    background-color: black;
-    color: white;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #ffd902f8, #d39804 ,#c58d00, #000000);
+    background-attachment: fixed;
 }
 
 div{text-align: center;}
