@@ -2,12 +2,12 @@ header{
     font-size: 100px;
     text-align: center;
     font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(230, 168, 11);
-    height: 150px;
+    background-color: #e6a80b;
+    height: 100px;
     padding-bottom: 5px;
     justify-content: center;
     text-shadow: 2px 2px 2px;
-    
+    text-decoration: underline #9e630b;
 }
 ul{
    
@@ -25,7 +25,6 @@ footer{
     color: white;
     height: 65px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
 body{
@@ -36,14 +35,15 @@ body{
 
 div{text-align: center;
     box-shadow: 5px 5px 10px;
+    padding: 10px;
 }
 
 .desordem{
-    background-color: rgba(139, 85, 14, 0.925);
+    background-color: #8b550eec;
     height: 150px;
     border-radius: solid 1px white;
     justify-content: center;
 }
 img{
-    border: solid 1px white;
+    border: solid 2px white;
 }
