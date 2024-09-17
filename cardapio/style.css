@@ -7,17 +7,8 @@ header{
     text-shadow: 2px 2px 2px;
     padding-left: 150px;
 }
-ul{
-   
-    border: solid 1px;
-    
-}
 
-li{
-    text-align: center;
-    
-    
-}
+
 
 footer{
     color: white;
@@ -34,6 +25,8 @@ body{
 div{text-align: center;
     box-shadow: 5px 5px 10px;
     padding: 10px;
+    display: flex
+    
 }
 
 
