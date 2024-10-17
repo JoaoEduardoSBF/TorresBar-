@@ -1,11 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unbounded:wght@200..900&display=swap');
+
+*{padding: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+main{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+  }
+
+
+
+
 header{
-    font: normal normal 100px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Unbounded", sans-serif;
+    font-size: 75px;
+    font-weight: 900;
+    font-style: normal;
     text-align: center;
-    background-color: #e6a80b;
+    color: white;
     height: 100px;
     padding-bottom: 3px;
-    text-shadow: 2px 2px 2px;
-    padding-left: 150px;
+   
 }
 
 
@@ -18,12 +40,11 @@ footer{
 
 body{
     height: 100vh;
-    background-image: linear-gradient(to bottom, #ffd902f8, #bb750d ,#9e630b, #000000);
-    background-attachment: fixed;
+    background-color: black;
 }
 
 div{text-align: center;
-    box-shadow: 5px 5px 10px;
+  
     padding: 10px;
    
     
@@ -33,25 +54,41 @@ div{text-align: center;
 img{
     border: solid 2px white;
 }
-#item1{ 
-    padding-left: 100px;
 
-}
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
  }
 
 .navbar ul{
     display: flex;
+    text-align: justify;
 }
 
 .navbar ul li{
     list-style: none;
+    text-align: justify;
 }
-.navbar ul li a{
+.navbar ul a{
     font-size: 36px;
     text-decoration: none;
-    margin-right: 65px;
+    margin-right: 50px;
+    justify-content: space-between;
+    margin-left: 200px;
+    color: white;
 }
+.navbar :hover > ol{
+    display: block; 
+    text-decoration: underline;
+    
+    
+}
+
+.navbar ol{
+
+    display: none;
+    margin-left: 100px;
+    
+}
+
+
