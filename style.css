@@ -25,7 +25,7 @@ body{
 div{text-align: center;
     box-shadow: 5px 5px 10px;
     padding: 10px;
-    display: flex
+   
     
 }
 
@@ -36,4 +36,22 @@ img{
 #item1{ 
     padding-left: 100px;
 
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    font-size: 36px;
+    text-decoration: none;
+    margin-right: 65px;
 }
